@@ -1,0 +1,628 @@
+@media(min-width: 850px){
+    .header-order{
+        background-image: url('../img/header-order_1920.jpg');
+    }
+    .plane-box{
+        &__inside{
+            width: 40%;
+        }
+        &__seat-firstRow-first {
+			left: 30%;
+		}
+
+		&__seat-firstRow-second {
+			left: 33%;
+		}
+
+		&__seat-firstRow-third {
+			left: 36%;
+		}
+
+		&__seat-firstRow-fourth {
+			left: 39%;
+		}
+
+		&__seat-firstRow-fifth {
+			right: 30%;
+		}
+
+		&__seat-firstRow-sixth {
+			right: 33%;
+		}
+
+		&__seat-firstRow-seventh {
+			right: 36%;
+		}
+
+		&__seat-firstRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-secondRow-first {
+			left: 30%;
+		}
+
+		&__seat-secondRow-second {
+			left: 33%;
+		}
+
+		&__seat-secondRow-third {
+			left: 36%;
+		}
+
+		&__seat-secondRow-fourth {
+			left: 39%;
+		}
+
+		&__seat-secondRow-fifth {
+			right: 30%;
+		}
+
+		&__seat-secondRow-sixth {
+			right: 33%;
+		}
+
+		&__seat-secondRow-seventh {
+			right: 36%;
+		}
+
+		&__seat-secondRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-thirdRow-first {
+			left: 30%;
+		}
+
+		&__seat-thirdRow-second {
+			left: 33%;
+		}
+
+		&__seat-thirdRow-third {
+			left: 36%;
+		}
+
+		&__seat-thirdRow-fourth {
+			left: 39%;
+		}
+
+		&__seat-thirdRow-fifth {
+			right: 30%;
+		}
+
+		&__seat-thirdRow-sixth {
+			right: 33%;
+		}
+
+		&__seat-thirdRow-seventh {
+			right: 36%;
+		}
+
+		&__seat-thirdRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-fourthRow-first {
+			left: 30%;
+		}
+
+		&__seat-fourthRow-second {
+			left: 33%;
+		}
+
+		&__seat-fourthRow-third {
+			left: 36%;
+		}
+
+		&__seat-fourthRow-fourth {
+			left: 39%;
+		}
+
+		&__seat-fourthRow-fifth {
+			right: 30%;
+		}
+
+		&__seat-fourthRow-sixth {
+			right: 33%;
+		}
+
+		&__seat-fourthRow-seventh {
+			right: 36%;
+		}
+
+		&__seat-fourthRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-fifthRow-first {
+			left: 30%;
+		}
+		&__seat-fifthRow-second {
+			left: 33%;
+		}
+		&__seat-fifthRow-third {
+			left: 36%;
+		}
+		&__seat-fifthRow-fourth {
+			left: 39%;
+		}
+		&__seat-fifthRow-fifth {
+			right: 30%;
+		}
+		&__seat-fifthRow-sixth {
+			right: 33%;
+		}
+		&__seat-fifthRow-seventh {
+			right: 36%;
+		}
+		&__seat-fifthRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-sixthRow-first {
+			left: 30%;
+		}
+		&__seat-sixthRow-second {
+			left: 33%;
+		}
+		&__seat-sixthRow-third {
+			left: 36%;
+		}
+		&__seat-sixthRow-fourth {
+			left: 39%;
+		}
+		&__seat-sixthRow-fifth {
+			right: 30%;
+		}
+		&__seat-sixthRow-sixth {
+			right: 33%;
+		}
+		&__seat-sixthRow-seventh {
+			right: 36%;
+		}
+		&__seat-sixthRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-seventhRow-first {
+			left: 30%;
+		}
+		&__seat-seventhRow-second {
+			left: 33%;
+		}
+		&__seat-seventhRow-third {
+			left: 36%;
+		}
+		&__seat-seventhRow-fourth {
+			left: 39%;
+		}
+		&__seat-seventhRow-fifth {
+			right: 30%;
+		}
+		&__seat-seventhRow-sixth {
+			right: 33%;
+		}
+		&__seat-seventhRow-seventh {
+			right: 36%;
+		}
+		&__seat-seventhRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-eighthRow-first {
+			left: 30%;
+		}
+		&__seat-eighthRow-second {
+			left: 33%;
+		}
+		&__seat-eighthRow-third {
+			left: 36%;
+		}
+		&__seat-eighthRow-fourth {
+			left: 39%;
+		}
+		&__seat-eighthRow-fifth {
+			right: 30%;
+		}
+		&__seat-eighthRow-sixth {
+			right: 33%;
+		}
+		&__seat-eighthRow-seventh {
+			right: 36%;
+		}
+		&__seat-eighthRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-ninthRow-first {
+			left: 30%;
+		}
+		&__seat-ninthRow-second {
+			left: 33%;
+		}
+		&__seat-ninthRow-third {
+			left: 36%;
+		}
+		&__seat-ninthRow-fourth {
+			left: 39%;
+		}
+		&__seat-ninthRow-fifth {
+			right: 30%;
+		}
+		&__seat-ninthRow-sixth {
+			right: 33%;
+		}
+		&__seat-ninthRow-seventh {
+			right: 36%;
+		}
+		&__seat-ninthRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-tenthRow-first {
+			left: 30%;
+		}
+		&__seat-tenthRow-second {
+			left: 33%;
+		}
+		&__seat-tenthRow-third {
+			left: 36%;
+		}
+		&__seat-tenthRow-fourth {
+			left: 39%;
+		}
+		&__seat-tenthRow-fifth {
+			right: 30%;
+		}
+		&__seat-tenthRow-sixth {
+			right: 33%;
+		}
+		&__seat-tenthRow-seventh {
+			right: 36%;
+		}
+		&__seat-tenthRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-eleventhRow-first {
+			left: 30%;
+		}
+		&__seat-eleventhRow-second {
+			left: 33%;
+		}
+		&__seat-eleventhRow-third {
+			left: 36%;
+		}
+		&__seat-eleventhRow-fourth {
+			left: 39%;
+		}
+		&__seat-eleventhRow-fifth {
+			right: 30%;
+		}
+		&__seat-eleventhRow-sixth {
+			right: 33%;
+		}
+		&__seat-eleventhRow-seventh {
+			right: 36%;
+		}
+		&__seat-eleventhRow-eighth {
+			right: 39%;
+		}
+
+		&__seat-twelfthRow-first {
+			left: 30%;
+		}
+		&__seat-twelfthRow-second {
+			left: 33%;
+		}
+		&__seat-twelfthRow-third {
+			left: 36%;
+		}
+		&__seat-twelfthRow-fourth {
+			left: 39%;
+		}
+		&__seat-twelfthRow-fifth {
+			right: 30%;
+		}
+		&__seat-twelfthRow-sixth {
+			right: 33%;
+		}
+		&__seat-twelfthRow-seventh {
+			right: 36%;
+		}
+		&__seat-twelfthRow-eighth {
+			right: 39%;
+		}
+
+		&__seatB-firstRow-first {
+			left: 30%;
+		}
+		&__seatB-firstRow-second {
+			left: 34%;
+		}
+		&__seatB-firstRow-third {
+			left: 38%;
+		}
+		&__seatB-firstRow-fourth {
+			right: 30%;
+		}
+		&__seatB-firstRow-fifth {
+			right: 34%;
+		}
+		&__seatB-firstRow-sixth {
+			right: 38%;
+		}
+
+		&__seatB-secondRow-first {
+			left: 30%;
+		}
+		&__seatB-secondRow-second {
+			left: 34%;
+		}
+		&__seatB-secondRow-third {
+			left: 38%;
+		}
+		&__seatB-secondRow-fourth {
+			right: 30%;
+		}
+		&__seatB-secondRow-fifth {
+			right: 34%;
+		}
+		&__seatB-secondRow-sixth {
+			right: 38%;
+		}
+
+		&__seatB-thirdRow-first {
+			left: 30%;
+		}
+		&__seatB-thirdRow-second {
+			left: 34%;
+		}
+		&__seatB-thirdRow-third {
+			left: 38%;
+		}
+		&__seatB-thirdRow-fourth {
+			right: 30%;
+		}
+		&__seatB-thirdRow-fifth {
+			right: 34%;
+		}
+		&__seatB-thirdRow-sixth {
+			right: 38%;
+		}
+
+		&__seatB-fourthRow-first {
+			left: 30%;
+		}
+		&__seatB-fourthRow-second {
+			left: 34%;
+		}
+		&__seatB-fourthRow-third {
+			left: 38%;
+		}
+		&__seatB-fourthRow-fourth {
+			right: 30%;
+		}
+		&__seatB-fourthRow-fifth {
+			right: 34%;
+		}
+		&__seatB-fourthRow-sixth {
+			right: 38%;
+		}
+
+		&__seatB-fifthRow-first {
+			left: 30%;
+		}
+		&__seatB-fifthRow-second {
+			left: 34%;
+		}
+		&__seatB-fifthRow-third {
+			left: 38%;
+		}
+		&__seatB-fifthRow-fourth {
+			right: 30%;
+		}
+		&__seatB-fifthRow-fifth {
+			right: 34%;
+		}
+		&__seatB-fifthRow-sixth {
+			right: 38%;
+		}
+
+		&__seatB-sixthRow-first {
+			left: 30%;
+		}
+		&__seatB-sixthRow-second {
+			left: 34%;
+		}
+		&__seatB-sixthRow-third {
+			left: 38%;
+		}
+		&__seatB-sixthRow-fourth {
+			right: 30%;
+		}
+		&__seatB-sixthRow-fifth {
+			right: 34%;
+		}
+		&__seatB-sixthRow-sixth {
+			right: 38%;
+		}
+
+		&__seatB-seventhRow-first {
+			left: 30%;
+		}
+		&__seatB-seventhRow-second {
+			left: 34%;
+		}
+		&__seatB-seventhRow-third {
+			left: 38%;
+		}
+		&__seatB-seventhRow-fourth {
+			right: 30%;
+		}
+		&__seatB-seventhRow-fifth {
+			right: 34%;
+		}
+		&__seatB-seventhRow-sixth {
+			right: 38%;
+		}
+
+		&__seatB-eighthRow-first {
+			left: 30%;
+		}
+		&__seatB-eighthRow-second {
+			left: 34%;
+		}
+		&__seatB-eighthRow-third {
+			left: 38%;
+		}
+		&__seatB-eighthRow-fourth {
+			right: 30%;
+		}
+		&__seatB-eighthRow-fifth {
+			right: 34%;
+		}
+		&__seatB-eighthRow-sixth {
+			right: 38%;
+		}
+
+		&__seatB-ninthRow-first {
+			left: 30%;
+		}
+		&__seatB-ninthRow-second {
+			left: 34%;
+		}
+		&__seatB-ninthRow-third {
+			left: 38%;
+		}
+		&__seatB-ninthRow-fourth {
+			right: 30%;
+		}
+		&__seatB-ninthRow-fifth {
+			right: 34%;
+		}
+		&__seatB-ninthRow-sixth {
+			right: 38%;
+		}
+
+		&__seatV-firstRow-first {
+			left: 31%;
+		}
+		&__seatV-firstRow-second {
+			left: 37%;
+		}
+		&__seatV-firstRow-third {
+			right: 31%;
+		}
+		&__seatV-firstRow-fourth {
+			right: 37%;
+		}
+
+		&__seatV-secondRow-first {
+			left: 31%;
+		}
+		&__seatV-secondRow-second {
+			left: 37%;
+		}
+		&__seatV-secondRow-third {
+			right: 31%;
+		}
+		&__seatV-secondRow-fourth {
+			right: 37%;
+		}
+
+		&__seatV-thirdRow-first {
+			left: 31%;
+		}
+		&__seatV-thirdRow-second {
+			left: 37%;
+		}
+		&__seatV-thirdRow-third {
+			right: 31%;
+		}
+		&__seatV-thirdRow-fourth {
+			right: 37%;
+		}
+
+		&__seatV-fourthRow-first {
+			left: 31%;
+		}
+		&__seatV-fourthRow-second {
+			left: 37%;
+		}
+		&__seatV-fourthRow-third {
+			right: 31%;
+		}
+		&__seatV-fourthRow-fourth {
+			right: 37%;
+		}
+
+		&__seatV-fifthRow-first {
+			left: 31%;
+		}
+		&__seatV-fifthRow-second {
+			left: 37%;
+		}
+		&__seatV-fifthRow-third {
+			right: 31%;
+		}
+		&__seatV-fifthRow-fourth {
+			right: 37%;
+		}
+
+		&__seat-ban1 {
+			left: 30%;
+		}
+
+		&__seat-ban2 {
+			right: 30%;
+		}
+
+		&__seat-ban3 {
+			left: 30%;
+		}
+
+		&__seat-ban4 {
+			right: 30%;
+		}
+    }
+}
+
+@media(min-width: 992px){
+    .header{
+        background-image: url("../img/header-main_1920.jpg");
+        
+        &__heading{
+            font-size: 5rem;
+        }
+    }
+
+	.basic-info{
+		__describtion {
+			display: flex;
+			position: absolute;
+			top: 30%;
+			font-size: 1.8rem;
+			text-align: center;
+		}
+	}
+
+    .order{
+
+        &__heading{
+            top: 10px;
+            font-size: 5.5rem;
+			margin-top: 0.2em;
+        }
+        &__form{
+
+            &-label{
+                font-size: 2.9rem;
+            }
+        }
+    }
+
+	.register{
+		background-image: url('../img/register_1920.jpg');
+	}
+}

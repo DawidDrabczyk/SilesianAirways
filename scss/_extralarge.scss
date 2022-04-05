@@ -1,0 +1,615 @@
+@media(min-width: 1200px){
+	.header{
+		height: 60vh;
+	}
+    .header-order{
+        height: 25rem;
+
+        &__heading{
+            font-size: 5rem;
+        }
+    }
+	.basic-info{
+		&__heading{
+			font-size: 4rem;
+		}
+		&__text{
+			font-size: 2.5rem;
+		}
+		&__arrow{
+			bottom: 2.5rem;
+		}
+	}
+	.exchange{
+		&__heading-text{
+			font-size: 2rem;
+		}
+		&__body-amount{
+			font-size: 2.5rem;
+		}
+	}
+    .plane-box{
+        &__inside{
+            width: 27%;
+        }
+        &__seat-firstRow-first {
+			left: 37%;
+		}
+
+		&__seat-firstRow-second {
+			left: 39%;
+		}
+
+		&__seat-firstRow-third {
+			left: 41%;
+		}
+
+		&__seat-firstRow-fourth {
+			left: 43%;
+		}
+
+		&__seat-firstRow-fifth {
+			right: 37%;
+		}
+
+		&__seat-firstRow-sixth {
+			right: 39%;
+		}
+
+		&__seat-firstRow-seventh {
+			right: 41%;
+		}
+
+		&__seat-firstRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-secondRow-first {
+			left: 37%;
+		}
+
+		&__seat-secondRow-second {
+			left: 39%;
+		}
+
+		&__seat-secondRow-third {
+			left: 41%;
+		}
+
+		&__seat-secondRow-fourth {
+			left: 43%;
+		}
+
+		&__seat-secondRow-fifth {
+			right: 37%;
+		}
+
+		&__seat-secondRow-sixth {
+			right: 39%;
+		}
+
+		&__seat-secondRow-seventh {
+			right: 41%;
+		}
+
+		&__seat-secondRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-thirdRow-first {
+			left: 37%;
+		}
+
+		&__seat-thirdRow-second {
+			left: 39%;
+		}
+
+		&__seat-thirdRow-third {
+			left: 41%;
+		}
+
+		&__seat-thirdRow-fourth {
+			left: 43%;
+		}
+
+		&__seat-thirdRow-fifth {
+			right: 37%;
+		}
+
+		&__seat-thirdRow-sixth {
+			right: 39%;
+		}
+
+		&__seat-thirdRow-seventh {
+			right: 41%;
+		}
+
+		&__seat-thirdRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-fourthRow-first {
+			left: 37%;
+		}
+
+		&__seat-fourthRow-second {
+			left: 39%;
+		}
+
+		&__seat-fourthRow-third {
+			left: 41%;
+		}
+
+		&__seat-fourthRow-fourth {
+			left: 43%;
+		}
+
+		&__seat-fourthRow-fifth {
+			right: 37%;
+		}
+
+		&__seat-fourthRow-sixth {
+			right: 39%;
+		}
+
+		&__seat-fourthRow-seventh {
+			right: 41%;
+		}
+
+		&__seat-fourthRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-fifthRow-first {
+			left: 37%;
+		}
+		&__seat-fifthRow-second {
+			left: 39%;
+		}
+		&__seat-fifthRow-third {
+			left: 41%;
+		}
+		&__seat-fifthRow-fourth {
+			left: 43%;
+		}
+		&__seat-fifthRow-fifth {
+			right: 37%;
+		}
+		&__seat-fifthRow-sixth {
+			right: 39%;
+		}
+		&__seat-fifthRow-seventh {
+			right: 41%;
+		}
+		&__seat-fifthRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-sixthRow-first {
+			left: 37%;
+		}
+		&__seat-sixthRow-second {
+			left: 39%;
+		}
+		&__seat-sixthRow-third {
+			left: 41%;
+		}
+		&__seat-sixthRow-fourth {
+			left: 43%;
+		}
+		&__seat-sixthRow-fifth {
+			right: 37%;
+		}
+		&__seat-sixthRow-sixth {
+			right: 39%;
+		}
+		&__seat-sixthRow-seventh {
+			right: 41%;
+		}
+		&__seat-sixthRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-seventhRow-first {
+			left: 37%;
+		}
+		&__seat-seventhRow-second {
+			left: 39%;
+		}
+		&__seat-seventhRow-third {
+			left: 41%;
+		}
+		&__seat-seventhRow-fourth {
+			left: 43%;
+		}
+		&__seat-seventhRow-fifth {
+			right: 37%;
+		}
+		&__seat-seventhRow-sixth {
+			right: 39%;
+		}
+		&__seat-seventhRow-seventh {
+			right: 41%;
+		}
+		&__seat-seventhRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-eighthRow-first {
+			left: 37%;
+		}
+		&__seat-eighthRow-second {
+			left: 39%;
+		}
+		&__seat-eighthRow-third {
+			left: 41%;
+		}
+		&__seat-eighthRow-fourth {
+			left: 43%;
+		}
+		&__seat-eighthRow-fifth {
+			right: 37%;
+		}
+		&__seat-eighthRow-sixth {
+			right: 39%;
+		}
+		&__seat-eighthRow-seventh {
+			right: 41%;
+		}
+		&__seat-eighthRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-ninthRow-first {
+			left: 37%;
+		}
+		&__seat-ninthRow-second {
+			left: 39%;
+		}
+		&__seat-ninthRow-third {
+			left: 41%;
+		}
+		&__seat-ninthRow-fourth {
+			left: 43%;
+		}
+		&__seat-ninthRow-fifth {
+			right: 37%;
+		}
+		&__seat-ninthRow-sixth {
+			right: 39%;
+		}
+		&__seat-ninthRow-seventh {
+			right: 41%;
+		}
+		&__seat-ninthRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-tenthRow-first {
+			left: 37%;
+		}
+		&__seat-tenthRow-second {
+			left: 39%;
+		}
+		&__seat-tenthRow-third {
+			left: 41%;
+		}
+		&__seat-tenthRow-fourth {
+			left: 43%;
+		}
+		&__seat-tenthRow-fifth {
+			right: 37%;
+		}
+		&__seat-tenthRow-sixth {
+			right: 39%;
+		}
+		&__seat-tenthRow-seventh {
+			right: 41%;
+		}
+		&__seat-tenthRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-eleventhRow-first {
+			left: 37%;
+		}
+		&__seat-eleventhRow-second {
+			left: 39%;
+		}
+		&__seat-eleventhRow-third {
+			left: 41%;
+		}
+		&__seat-eleventhRow-fourth {
+			left: 43%;
+		}
+		&__seat-eleventhRow-fifth {
+			right: 37%;
+		}
+		&__seat-eleventhRow-sixth {
+			right: 39%;
+		}
+		&__seat-eleventhRow-seventh {
+			right: 41%;
+		}
+		&__seat-eleventhRow-eighth {
+			right: 43%;
+		}
+
+		&__seat-twelfthRow-first {
+			left: 37%;
+		}
+		&__seat-twelfthRow-second {
+			left: 39%;
+		}
+		&__seat-twelfthRow-third {
+			left: 41%;
+		}
+		&__seat-twelfthRow-fourth {
+			left: 43%;
+		}
+		&__seat-twelfthRow-fifth {
+			right: 37%;
+		}
+		&__seat-twelfthRow-sixth {
+			right: 39%;
+		}
+		&__seat-twelfthRow-seventh {
+			right: 41%;
+		}
+		&__seat-twelfthRow-eighth {
+			right: 43%;
+		}
+
+		&__seatB-firstRow-first {
+			left: 36%;
+		}
+		&__seatB-firstRow-second {
+			left: 39%;
+		}
+		&__seatB-firstRow-third {
+			left: 42%;
+		}
+		&__seatB-firstRow-fourth {
+			right: 36%;
+		}
+		&__seatB-firstRow-fifth {
+			right: 39%;
+		}
+		&__seatB-firstRow-sixth {
+			right: 42%;
+		}
+
+		&__seatB-secondRow-first {
+			left: 36%;
+		}
+		&__seatB-secondRow-second {
+			left: 39%;
+		}
+		&__seatB-secondRow-third {
+			left: 42%;
+		}
+		&__seatB-secondRow-fourth {
+			right: 36%;
+		}
+		&__seatB-secondRow-fifth {
+			right: 39%;
+		}
+		&__seatB-secondRow-sixth {
+			right: 42%;
+		}
+
+		&__seatB-thirdRow-first {
+			left: 36%;
+		}
+		&__seatB-thirdRow-second {
+			left: 39%;
+		}
+		&__seatB-thirdRow-third {
+			left: 42%;
+		}
+		&__seatB-thirdRow-fourth {
+			right: 36%;
+		}
+		&__seatB-thirdRow-fifth {
+			right: 39%;
+		}
+		&__seatB-thirdRow-sixth {
+			right: 42%;
+		}
+
+		&__seatB-fourthRow-first {
+			left: 36%;
+		}
+		&__seatB-fourthRow-second {
+			left: 39%;
+		}
+		&__seatB-fourthRow-third {
+			left: 42%;
+		}
+		&__seatB-fourthRow-fourth {
+			right: 36%;
+		}
+		&__seatB-fourthRow-fifth {
+			right: 39%;
+		}
+		&__seatB-fourthRow-sixth {
+			right: 42%;
+		}
+
+		&__seatB-fifthRow-first {
+			left: 36%;
+		}
+		&__seatB-fifthRow-second {
+			left: 39%;
+		}
+		&__seatB-fifthRow-third {
+			left: 42%;
+		}
+		&__seatB-fifthRow-fourth {
+			right: 36%;
+		}
+		&__seatB-fifthRow-fifth {
+			right: 39%;
+		}
+		&__seatB-fifthRow-sixth {
+			right: 42%;
+		}
+
+		&__seatB-sixthRow-first {
+			left: 36%;
+		}
+		&__seatB-sixthRow-second {
+			left: 39%;
+		}
+		&__seatB-sixthRow-third {
+			left: 42%;
+		}
+		&__seatB-sixthRow-fourth {
+			right: 36%;
+		}
+		&__seatB-sixthRow-fifth {
+			right: 39%;
+		}
+		&__seatB-sixthRow-sixth {
+			right: 42%;
+		}
+
+		&__seatB-seventhRow-first {
+			left: 36%;
+		}
+		&__seatB-seventhRow-second {
+			left: 39%;
+		}
+		&__seatB-seventhRow-third {
+			left: 42%;
+		}
+		&__seatB-seventhRow-fourth {
+			right: 36%;
+		}
+		&__seatB-seventhRow-fifth {
+			right: 39%;
+		}
+		&__seatB-seventhRow-sixth {
+			right: 42%;
+		}
+
+		&__seatB-eighthRow-first {
+			left: 36%;
+		}
+		&__seatB-eighthRow-second {
+			left: 39%;
+		}
+		&__seatB-eighthRow-third {
+			left: 42%;
+		}
+		&__seatB-eighthRow-fourth {
+			right: 36%;
+		}
+		&__seatB-eighthRow-fifth {
+			right: 39%;
+		}
+		&__seatB-eighthRow-sixth {
+			right: 42%;
+		}
+
+		&__seatB-ninthRow-first {
+			left: 36%;
+		}
+		&__seatB-ninthRow-second {
+			left: 39%;
+		}
+		&__seatB-ninthRow-third {
+			left: 42%;
+		}
+		&__seatB-ninthRow-fourth {
+			right: 36%;
+		}
+		&__seatB-ninthRow-fifth {
+			right: 39%;
+		}
+		&__seatB-ninthRow-sixth {
+			right: 42%;
+		}
+
+		&__seatV-firstRow-first {
+			left: 37%;
+		}
+		&__seatV-firstRow-second {
+			left: 41%;
+		}
+		&__seatV-firstRow-third {
+			right: 37%;
+		}
+		&__seatV-firstRow-fourth {
+			right: 41%;
+		}
+
+		&__seatV-secondRow-first {
+			left: 37%;
+		}
+		&__seatV-secondRow-second {
+			left: 41%;
+		}
+		&__seatV-secondRow-third {
+			right: 37%;
+		}
+		&__seatV-secondRow-fourth {
+			right: 41%;
+		}
+
+		&__seatV-thirdRow-first {
+			left: 37%;
+		}
+		&__seatV-thirdRow-second {
+			left: 41%;
+		}
+		&__seatV-thirdRow-third {
+			right: 37%;
+		}
+		&__seatV-thirdRow-fourth {
+			right: 41%;
+		}
+
+		&__seatV-fourthRow-first {
+			left: 37%;
+		}
+		&__seatV-fourthRow-second {
+			left: 41%;
+		}
+		&__seatV-fourthRow-third {
+			right: 37%;
+		}
+		&__seatV-fourthRow-fourth {
+			right: 41%;
+		}
+
+		&__seatV-fifthRow-first {
+			left: 37%;
+		}
+		&__seatV-fifthRow-second {
+			left: 41%;
+		}
+		&__seatV-fifthRow-third {
+			right: 37%;
+		}
+		&__seatV-fifthRow-fourth {
+			right: 41%;
+		}
+
+		&__seat-ban1 {
+			left: 37%;
+		}
+
+		&__seat-ban2 {
+			right: 37%;
+		}
+
+		&__seat-ban3 {
+			left: 37%;
+		}
+
+		&__seat-ban4 {
+			right: 37%;
+		}
+    }
+}

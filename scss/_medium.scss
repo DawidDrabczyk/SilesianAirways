@@ -1,0 +1,109 @@
+
+@media (min-width: 662px){
+	.popup-final{
+
+		&__heading{
+			right: 30%;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.header {
+		&__timer {
+			font-size: 1.5rem;
+			width: 250px;
+			&--time {
+				margin-bottom: 0.5em;
+			}
+		}
+	}
+    .basic-info{
+        &__heading{
+            font-size: 3.5rem;
+        }
+        &__text {
+            top: 45%;
+			font-size: 2rem;
+		}
+    }
+	.order {
+		&__heading {
+			font-size: 4.5rem;
+		}
+	}
+	.weather {
+		&__main-info {
+			&--input {
+				padding: 1em;
+			}
+			&--city-name {
+				font-size: 4rem;
+			}
+			&--photo {
+				width: 200px;
+				height: 200px;
+			}
+		}
+		&__headings p,
+		&__info p {
+			width: 50%;
+            font-size: 2.5rem;
+		}
+	}
+	.plane-box{
+        &__inside{
+            width: 60%;
+        }
+    }
+	.header-order{
+		height: 15rem;
+
+		&__heading{
+			display: flex;
+		}
+	}
+
+	.register{
+
+		&__popup-form{
+
+			&--heading{
+				font-size: 4rem;
+			}
+			&--label{
+				font-size: 2rem;
+			}
+		}
+	}
+
+	.exchange{
+		height: 60vh;
+
+		&__heading{
+			font-size: 4rem;
+		}
+		&__heading-text{
+			top: 30%;
+		}
+		&__body{
+			display: flex;
+			flex-direction: row;
+			top: 60%;
+		}
+		&__body-amount{
+			font-size: 2rem;
+		}
+		&__body-select{
+			font-size: 1.6rem;
+		}
+	}
+
+	.popup-login{
+		width: 350px;
+
+		&__text{
+			font-size: 1.8rem;
+		}
+	}
+}

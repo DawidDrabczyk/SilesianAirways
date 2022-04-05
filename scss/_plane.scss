@@ -1,0 +1,937 @@
+.plane-box{
+	position: relative;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+
+	.row{
+		position: absolute;
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+    &__heading-economic{
+        position: absolute;
+        top: 90px;
+        font-size: 1.5rem;
+    }
+    &__heading-business{
+        position: absolute;
+        top: 420px;
+        font-size: 1.5rem;
+    }
+    &__heading-vip{
+        position: absolute;
+        top: 760px;
+        font-size: 1.5rem;
+    }
+
+	.rowFirst{
+		top: 125px;
+	}
+	.rowSecond{
+		top: 145px;
+	}
+	.rowThird{
+		top: 165px;
+	}
+	.rowFourth{
+		top: 185px;
+	}
+	.rowFifth{
+		top: 205px;
+	}
+	.rowSixth{
+		top: 225px;
+	}
+	.rowSeventh{
+		top: 245px;
+	}
+	.rowEighth{
+		top: 265px;
+	}
+	.rowNinth{
+		top: 285px;
+	}
+	.rowTenth{
+		top: 305px;
+	}
+	.rowEleventh{
+		top: 325px;
+	}
+	.rowTwelfth{
+		top: 345px;
+	}
+
+    .rowFirstB{
+        top: 450px;
+    }
+    .rowSecondB{
+        top: 480px;
+    }
+    .rowThirdB{
+        top: 510px;
+    }
+    .rowFourthB{
+        top: 540px;
+    }
+    .rowFifthB{
+        top: 570px;
+    }
+    .rowSixthB{
+        top: 600px;
+    }
+    .rowSeventhB{
+        top: 630px;
+    }
+    .rowEighthB{
+        top: 660px;
+    }
+    .rowNinthB{
+        top: 690px;
+    }
+
+    .rowV{
+        font-size: 2.1rem;
+    }
+
+    .rowFirstV{
+        top: 800px;
+    }
+    .rowSecondV{
+        top: 835px;
+    }
+    .rowThirdV{
+        top: 870px;
+    }
+    .rowFourthV{
+        top: 905px;
+    }
+    .rowFifthV{
+        top: 940px;
+    }
+
+	.available{
+		color: $sky-light;
+	}
+
+	.available-choice{
+		color: green;
+	}
+	
+	&__inside{
+		text-align: center;
+		right: 0;
+		width: 70%;
+		height: 1000px;
+	}
+
+	&__seats{
+		position: absolute;
+		font-size: 1rem;
+		color: green;
+		cursor: pointer;
+	}
+
+    &__seatsB{
+        position: absolute;
+        font-size: 1.5rem;
+        color: green;
+        cursor: pointer;
+    }
+
+    &__seatsV{
+        position: absolute;
+        font-size: 2rem;
+        color: green;
+        cursor: pointer;
+    }
+	
+	&__seat-firstRow-first{
+		top: 130px;
+		left: 70px;
+	}
+	
+	&__seat-firstRow-second{
+		top: 130px;
+		left: 90px;
+	}
+	
+	&__seat-firstRow-third{
+		top: 130px;
+		left: 110px;
+	}
+	
+	&__seat-firstRow-fourth{
+		top: 130px;
+		left: 130px;
+	}
+	
+	&__seat-firstRow-fifth{
+		top: 130px;
+		right: 70px;
+	}
+	
+	&__seat-firstRow-sixth{
+		top: 130px;
+		right: 90px;
+	}
+	
+	&__seat-firstRow-seventh{
+		top: 130px;
+		right: 110px;
+	}
+	
+	&__seat-firstRow-eighth{
+		top: 130px;
+		right: 130px;
+	}
+	
+	&__seat-secondRow-first{
+		top: 150px;
+		left: 70px;
+	}
+	
+	&__seat-secondRow-second{
+		top: 150px;
+		left: 90px;
+	}
+	
+	&__seat-secondRow-third{
+		top: 150px;
+		left: 110px;
+	}
+	
+	&__seat-secondRow-fourth{
+		top: 150px;
+		left: 130px;
+	}
+	
+	&__seat-secondRow-fifth{
+		top: 150px;
+		right: 70px;
+	}
+	
+	&__seat-secondRow-sixth{
+		top: 150px;
+		right: 90px;
+	}
+	
+	&__seat-secondRow-seventh{
+		top: 150px;
+		right: 110px;
+	}
+	
+	&__seat-secondRow-eighth{
+		top: 150px;
+		right: 130px;
+	}
+	
+	&__seat-thirdRow-first{
+		top: 170px;
+		left: 70px;
+	}
+	
+	&__seat-thirdRow-second{
+		top: 170px;
+		left: 90px;
+	}
+	
+	&__seat-thirdRow-third{
+		top: 170px;
+		left: 110px;
+	}
+	
+	&__seat-thirdRow-fourth{
+		top: 170px;
+		left: 130px;
+	}
+	
+	&__seat-thirdRow-fifth{
+		top: 170px;
+		right: 70px;
+	}
+	
+	&__seat-thirdRow-sixth{
+		top: 170px;
+		right: 90px;
+	}
+	
+	&__seat-thirdRow-seventh{
+		top: 170px;
+		right: 110px;
+	}
+	
+	&__seat-thirdRow-eighth{
+		top: 170px;
+		right: 130px;
+	}
+	
+	&__seat-fourthRow-first{
+		top: 190px;
+		left: 70px;
+	}
+	
+	&__seat-fourthRow-second{
+		top: 190px;
+		left: 90px;
+	}
+	
+	&__seat-fourthRow-third{
+		top: 190px;
+		left: 110px;
+	}
+	
+	&__seat-fourthRow-fourth{
+		top: 190px;
+		left: 130px;
+	}
+	
+	&__seat-fourthRow-fifth{
+		top: 190px;
+		right: 70px;
+	}
+	
+	&__seat-fourthRow-sixth{
+		top: 190px;
+		right: 90px;
+	}
+	
+	&__seat-fourthRow-seventh{
+		top: 190px;
+		right: 110px;
+	}
+	
+	&__seat-fourthRow-eighth{
+		top: 190px;
+		right: 130px;
+	}
+
+	&__seat-fifthRow-first{
+		top: 210px;
+		left: 70px;
+	}
+	&__seat-fifthRow-second{
+		top: 210px;
+		left: 90px;
+	}
+	&__seat-fifthRow-third{
+		top: 210px;
+		left: 110px;
+	}
+	&__seat-fifthRow-fourth{
+		top: 210px;
+		left: 130px;
+	}
+	&__seat-fifthRow-fifth{
+		top: 210px;
+		right: 70px;
+	}
+	&__seat-fifthRow-sixth{
+		top: 210px;
+		right: 90px;
+	}
+	&__seat-fifthRow-seventh{
+		top: 210px;
+		right: 110px;
+	}
+	&__seat-fifthRow-eighth{
+		top: 210px;
+		right: 130px;
+	}
+
+	&__seat-sixthRow-first{
+		top: 230px;
+		left: 70px;
+	}
+	&__seat-sixthRow-second{
+		top: 230px;
+		left: 90px;
+	}
+	&__seat-sixthRow-third{
+		top: 230px;
+		left: 110px;
+	}
+	&__seat-sixthRow-fourth{
+		top: 230px;
+		left: 130px;
+	}
+	&__seat-sixthRow-fifth{
+		top: 230px;
+		right: 70px;
+	}
+	&__seat-sixthRow-sixth{
+		top: 230px;
+		right: 90px;
+	}
+	&__seat-sixthRow-seventh{
+		top: 230px;
+		right: 110px;
+	}
+	&__seat-sixthRow-eighth{
+		top: 230px;
+		right: 130px;
+	}
+
+    &__seat-seventhRow-first{
+		top: 250px;
+		left: 70px;
+	}
+    &__seat-seventhRow-second{
+		top: 250px;
+		left: 90px;
+	}
+    &__seat-seventhRow-third{
+		top: 250px;
+		left: 110px;
+	}
+    &__seat-seventhRow-fourth{
+		top: 250px;
+		left: 130px;
+	}
+    &__seat-seventhRow-fifth{
+		top: 250px;
+		right: 70px;
+	}
+    &__seat-seventhRow-sixth{
+		top: 250px;
+		right: 90px;
+	}
+    &__seat-seventhRow-seventh{
+		top: 250px;
+		right: 110px;
+	}
+    &__seat-seventhRow-eighth{
+		top: 250px;
+		right: 130px;
+	}
+
+    &__seat-eighthRow-first{
+		top: 270px;
+		left: 70px;
+	}
+    &__seat-eighthRow-second{
+		top: 270px;
+		left: 90px;
+	}
+    &__seat-eighthRow-third{
+		top: 270px;
+		left: 110px;
+	}
+    &__seat-eighthRow-fourth{
+		top: 270px;
+		left: 130px;
+	}
+    &__seat-eighthRow-fifth{
+		top: 270px;
+		right: 70px;
+	}
+    &__seat-eighthRow-sixth{
+		top: 270px;
+		right: 90px;
+	}
+    &__seat-eighthRow-seventh{
+		top: 270px;
+		right: 110px;
+	}
+    &__seat-eighthRow-eighth{
+		top: 270px;
+		right: 130px;
+	}
+
+    &__seat-ninthRow-first{
+		top: 290px;
+		left: 70px;
+	}
+    &__seat-ninthRow-second{
+		top: 290px;
+		left: 90px;
+	}
+    &__seat-ninthRow-third{
+		top: 290px;
+		left: 110px;
+	}
+    &__seat-ninthRow-fourth{
+		top: 290px;
+		left: 130px;
+	}
+    &__seat-ninthRow-fifth{
+		top: 290px;
+		right: 70px;
+	}
+    &__seat-ninthRow-sixth{
+		top: 290px;
+		right: 90px;
+	}
+    &__seat-ninthRow-seventh{
+		top: 290px;
+		right: 110px;
+	}
+    &__seat-ninthRow-eighth{
+		top: 290px;
+		right: 130px;
+	}
+
+    &__seat-tenthRow-first{
+		top: 310px;
+		left: 70px;
+	}
+    &__seat-tenthRow-second{
+		top: 310px;
+		left: 90px;
+	}
+    &__seat-tenthRow-third{
+		top: 310px;
+		left: 110px;
+	}
+    &__seat-tenthRow-fourth{
+		top: 310px;
+		left: 130px;
+	}
+    &__seat-tenthRow-fifth{
+		top: 310px;
+		right: 70px;
+	}
+    &__seat-tenthRow-sixth{
+		top: 310px;
+		right: 90px;
+	}
+    &__seat-tenthRow-seventh{
+		top: 310px;
+		right: 110px;
+	}
+    &__seat-tenthRow-eighth{
+		top: 310px;
+		right: 130px;
+	}
+
+    &__seat-eleventhRow-first{
+		top: 330px;
+		left: 70px;
+	}
+    &__seat-eleventhRow-second{
+		top: 330px;
+		left: 90px;
+	}
+    &__seat-eleventhRow-third{
+		top: 330px;
+		left: 110px;
+	}
+    &__seat-eleventhRow-fourth{
+		top: 330px;
+		left: 130px;
+	}
+    &__seat-eleventhRow-fifth{
+		top: 330px;
+		right: 70px;
+	}
+    &__seat-eleventhRow-sixth{
+		top: 330px;
+		right: 90px;
+	}
+    &__seat-eleventhRow-seventh{
+		top: 330px;
+		right: 110px;
+	}
+    &__seat-eleventhRow-eighth{
+		top: 330px;
+		right: 130px;
+	}
+
+    &__seat-twelfthRow-first{
+		top: 350px;
+		left: 70px;
+	}
+    &__seat-twelfthRow-second{
+		top: 350px;
+		left: 90px;
+	}
+    &__seat-twelfthRow-third{
+		top: 350px;
+		left: 110px;
+	}
+    &__seat-twelfthRow-fourth{
+		top: 350px;
+		left: 130px;
+	}
+    &__seat-twelfthRow-fifth{
+		top: 350px;
+		right: 70px;
+	}
+    &__seat-twelfthRow-sixth{
+		top: 350px;
+		right: 90px;
+	}
+    &__seat-twelfthRow-seventh{
+		top: 350px;
+		right: 110px;
+	}
+    &__seat-twelfthRow-eighth{
+		top: 350px;
+		right: 130px;
+	}
+
+    &__seatB-firstRow-first{
+        top: 450px;
+        left: 70px;
+    }
+    &__seatB-firstRow-second{
+        top: 450px;
+        left: 95px;
+    }
+    &__seatB-firstRow-third{
+        top: 450px;
+        left: 120px;
+    }
+    &__seatB-firstRow-fourth{
+        top: 450px;
+        right: 70px;
+    }
+    &__seatB-firstRow-fifth{
+        top: 450px;
+        right: 95px;
+    }
+    &__seatB-firstRow-sixth{
+        top: 450px;
+        right: 120px;
+    }
+
+    &__seatB-secondRow-first{
+        top: 480px;
+        left: 70px;
+    }
+    &__seatB-secondRow-second{
+        top: 480px;
+        left: 95px;
+    }
+    &__seatB-secondRow-third{
+        top: 480px;
+        left: 120px;
+    }
+    &__seatB-secondRow-fourth{
+        top: 480px;
+        right: 70px;
+    }
+    &__seatB-secondRow-fifth{
+        top: 480px;
+        right: 95px;
+    }
+    &__seatB-secondRow-sixth{
+        top: 480px;
+        right: 120px;
+    }
+
+    &__seatB-thirdRow-first{
+        top: 510px;
+        left: 70px;
+    }
+    &__seatB-thirdRow-second{
+        top: 510px;
+        left: 95px;
+    }
+    &__seatB-thirdRow-third{
+        top: 510px;
+        left: 120px;
+    }
+    &__seatB-thirdRow-fourth{
+        top: 510px;
+        right: 70px;
+    }
+    &__seatB-thirdRow-fifth{
+        top: 510px;
+        right: 95px;
+    }
+    &__seatB-thirdRow-sixth{
+        top: 510px;
+        right: 120px;
+    }
+
+    &__seatB-fourthRow-first{
+        top: 540px;
+        left: 70px;
+    }
+    &__seatB-fourthRow-second{
+        top: 540px;
+        left: 95px;
+    }
+    &__seatB-fourthRow-third{
+        top: 540px;
+        left: 120px;
+    }
+    &__seatB-fourthRow-fourth{
+        top: 540px;
+        right: 70px;
+    }
+    &__seatB-fourthRow-fifth{
+        top: 540px;
+        right: 95px;
+    }
+    &__seatB-fourthRow-sixth{
+        top: 540px;
+        right: 120px;
+    }
+
+    &__seatB-fifthRow-first{
+        top: 570px;
+        left: 70px;
+    }
+    &__seatB-fifthRow-second{
+        top: 570px;
+        left: 95px;
+    }
+    &__seatB-fifthRow-third{
+        top: 570px;
+        left: 120px;
+    }
+    &__seatB-fifthRow-fourth{
+        top: 570px;
+        right: 70px;
+    }
+    &__seatB-fifthRow-fifth{
+        top: 570px;
+        right: 95px;
+    }
+    &__seatB-fifthRow-sixth{
+        top: 570px;
+        right: 120px;
+    }
+
+    &__seatB-sixthRow-first{
+        top: 600px;
+        left: 70px;
+    }
+    &__seatB-sixthRow-second{
+        top: 600px;
+        left: 95px;
+    }
+    &__seatB-sixthRow-third{
+        top: 600px;
+        left: 120px;
+    }
+    &__seatB-sixthRow-fourth{
+        top: 600px;
+        right: 70px;
+    }
+    &__seatB-sixthRow-fifth{
+        top: 600px;
+        right: 95px;
+    }
+    &__seatB-sixthRow-sixth{
+        top: 600px;
+        right: 120px;
+    }
+
+    &__seatB-seventhRow-first{
+        top: 630px;
+        left: 70px;
+    }
+    &__seatB-seventhRow-second{
+        top: 630px;
+        left: 95px;
+    }
+    &__seatB-seventhRow-third{
+        top: 630px;
+        left: 120px;
+    }
+    &__seatB-seventhRow-fourth{
+        top: 630px;
+        right: 70px;
+    }
+    &__seatB-seventhRow-fifth{
+        top: 630px;
+        right: 95px;
+    }
+    &__seatB-seventhRow-sixth{
+        top: 630px;
+        right: 120px;
+    }
+
+    &__seatB-eighthRow-first{
+        top: 660px;
+        left: 70px;
+    }
+    &__seatB-eighthRow-second{
+        top: 660px;
+        left: 95px;
+    }
+    &__seatB-eighthRow-third{
+        top: 660px;
+        left: 120px;
+    }
+    &__seatB-eighthRow-fourth{
+        top: 660px;
+        right: 70px;
+    }
+    &__seatB-eighthRow-fifth{
+        top: 660px;
+        right: 95px;
+    }
+    &__seatB-eighthRow-sixth{
+        top: 660px;
+        right: 120px;
+    }
+
+    &__seatB-ninthRow-first{
+        top: 690px;
+        left: 70px;
+    }
+    &__seatB-ninthRow-second{
+        top: 690px;
+        left: 95px;
+    }
+    &__seatB-ninthRow-third{
+        top: 690px;
+        left: 120px;
+    }
+    &__seatB-ninthRow-fourth{
+        top: 690px;
+        right: 70px;
+    }
+    &__seatB-ninthRow-fifth{
+        top: 690px;
+        right: 95px;
+    }
+    &__seatB-ninthRow-sixth{
+        top: 690px;
+        right: 120px;
+    }
+
+    &__seatV-firstRow-first{
+        top: 800px;
+        left: 80px;
+    }
+    &__seatV-firstRow-second{
+        top: 800px;
+        left: 120px;
+    }
+    &__seatV-firstRow-third{
+        top: 800px;
+        right: 80px;
+    }
+    &__seatV-firstRow-fourth{
+        top: 800px;
+        right: 120px;
+    }
+
+    &__seatV-secondRow-first{
+        top: 835px;
+        left: 80px;
+    }
+    &__seatV-secondRow-second{
+        top: 835px;
+        left: 120px;
+    }
+    &__seatV-secondRow-third{
+        top: 835px;
+        right: 80px;
+    }
+    &__seatV-secondRow-fourth{
+        top: 835px;
+        right: 120px;
+    }
+
+    &__seatV-thirdRow-first{
+        top: 870px;
+        left: 80px;
+    }
+    &__seatV-thirdRow-second{
+        top: 870px;
+        left: 120px;
+    }
+    &__seatV-thirdRow-third{
+        top: 870px;
+        right: 80px;
+    }
+    &__seatV-thirdRow-fourth{
+        top: 870px;
+        right: 120px;
+    }
+
+    &__seatV-fourthRow-first{
+        top: 905px;
+        left: 80px;
+    }
+    &__seatV-fourthRow-second{
+        top: 905px;
+        left: 120px;
+    }
+    &__seatV-fourthRow-third{
+        top: 905px;
+        right: 80px;
+    }
+    &__seatV-fourthRow-fourth{
+        top: 905px;
+        right: 120px;
+    }
+
+    &__seatV-fifthRow-first{
+        top: 940px;
+        left: 80px;
+    }
+    &__seatV-fifthRow-second{
+        top: 940px;
+        left: 120px;
+    }
+    &__seatV-fifthRow-third{
+        top: 940px;
+        right: 80px;
+    }
+    &__seatV-fifthRow-fourth{
+        top: 940px;
+        right: 120px;
+    }
+	
+	&__seat-ban1{
+		top: 380px;
+		left: 70px;
+		color: red;
+		cursor: default;
+		
+		p{
+			margin-top: 0.5em;
+			font-size: 1rem;
+		}
+	}
+	
+	&__seat-ban2{
+		top: 380px;
+		right: 70px;
+		color: red;
+		cursor: default;
+
+		p{
+			margin-top: 0.5em;
+			font-size: 1rem;
+		}
+	}
+
+    &__seat-ban3{
+		top: 725px;
+		left: 70px;
+		color: red;
+		cursor: default;
+		
+		p{
+			margin-top: 0.5em;
+			font-size: 1rem;
+		}
+	}
+	
+	&__seat-ban4{
+		top: 725px;
+		right: 70px;
+		color: red;
+		cursor: default;
+
+		p{
+			margin-top: 0.5em;
+			font-size: 1rem;
+		}
+	}
+
+    .engaged{
+        color: tomato;
+        cursor: default;
+    }
+}

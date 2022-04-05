@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silesian Airways</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/89a125cbc3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__timer">
+            <div class="header__timer--time"></div>
+            <div class="header__timer--date"></div>
+        </div>
+        <button class="header__btn">
+            <span class="header__btn-text">Zaloguj się</span>
+            <span class="header__btn-img">✈️</span>
+        </button>
+        <div class="popup">
+            <div class="popup-content">
+                <i class="fa-solid fa-xmark close"></i>
+                <i class="fa-solid fa-plane-departure plane"></i>
+                <form role="form" class="popup-form">
+                    <input class="popup-input popup-input-login" id="login" type="text" placeholder="Login" name="login"
+                        required>
+                    <input class="popup-input popup-input-password" id="password" type="password" placeholder="Hasło"
+                        name="password" autocomplete="on" required>
+                    <button class="popup-btn" id="popup-btn"><a class="popup-btn-anchor">Zaloguj</a></button>
+                    <p class="popup-info"></p>
+                </form>
+            </div>
+        </div>
+        <h1 class="header__heading">witamy w silesian airways</h1>
+        <div class="bg-shadow"></div>
+    </header>
+    <main>
+        <section class="basic-info">
+            <p class="basic-info__heading">Pierwsze śląskie linie lotnicze</p>
+            <p class="basic-info__describtion">Specjalizujemy się w transporcie lotniczym w
+                trzech określonych kierunkach na świecie. Ponadto, nasze maszyny startują z trzech lotnisk położonych w
+                województwie śląskim.</p>
+            <div class="basic-info__text">Aby przejść do formularza rezerwacyjnego kliknij w poniższą strzałkę.</div>
+            <a href="#order" class="basic-info__arrow"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
+        </section>
+        <section class="order" id="order">
+            <div class="order__heading">Wypełnij formularz rezerwacyjny.</div>
+
+            <form action="order.html" class="order__form" name="order-form">
+                <label class="order__form-label" for="from">Miejsce wylotu:</label>
+                <select class="order__form-select form-item-cityfrom" name="" id="from" required>
+                    <option value="">- wylot z -</option>
+                    <option value="">Gliwice</option>
+                    <option value="">Katowice</option>
+                    <option value="">Zabrze</option>
+                </select>
+                <label class="order__form-label" for="to">Cel podróży:</label>
+                <select class="order__form-select form-item-cityto" name="" id="to" required>
+                    <option value="">- przylot do -</option>
+                    <option value="">Gdańsk</option>
+                    <option value="">Londyn</option>
+                    <option value="">Nowy Jork</option>
+                </select>
+                <label class="order__form-label form-item-date" for="time-arrive">Data odlotu:</label>
+                <input class="order__form-input" type="date" name="" id="time-arrive" required>
+                <label class="order__form-label" for="adults">Liczba pasażerów > 18</label>
+                <input class="order__form-input" type="number" name="" id="adults" min="0" max="100" required>
+                <label class="order__form-label" for="underage">Liczba pasażerów < 18</label>
+                        <input class="order__form-input" type="number" name="" id="underage" min="0" max="100" required>
+                        <label class="order__form-label" for="sector">Wybierz klasę:</label>
+                        <select class="order__form-select" id="sector" required>
+                            <option value="">-</option>
+                            <option value="">Ekonomiczna</option>
+                            <option value="">Biznesowa</option>
+                            <option value="">VIP</option>
+                        </select>
+                        <label class="order__form-label" for="luggage">Bagaż:</label>
+                        <select class="order__form-select" name="" id="luggage" required>
+                            <option value="">-</option>
+                            <option value="">Bez bagażu</option>
+                            <option value="">Bagaż podręczny</option>
+                            <option value="">Duży bagaż > 15kg</option>
+                        </select>
+                        <button class="order__form-btn btn-form" type="submit" id="submit-btn"><a class="submit-btn">Zamów</a></button>
+                        <button class="order__form-btn btn-form" type="reset">Zresetuj formularz</button>
+            </form>
+            <div class="popup-login">
+                <div class="popup-login__header">
+                    <div class="popup-login__header-title"><a href="#">zaloguj się!</a></div>
+                    <button class="popup-login__closeBtn">&times;</button>
+                </div>
+                    <div class="popup-login__text">Musisz być zalogowany aby dokończyć proces zamówienia biletu!</div>
+            </div>
+            <hr>
+        </section>
+        <section class="weather">
+            <div class="wrapper">
+                <div class="top">
+                    <h1 class="weather__heading">sprawdź aktualną pogodę</h1>
+                    <p class="weather__text">W docelowym miejscu podróży.</p>
+                    <div class="weather__main-info">
+                        <div>
+                            <h3 class="weather__main-info--city-name"></h3>
+                            <input class="weather__main-info--input" type="text" placeholder="Wpisz nazwę miasta...">
+                            <button class="weather__main-info--button">Wyślij</button>
+                            <p class="weather__main-info--warning"></p>
+                        </div>
+                        <img src="./img/unknown.png" alt="Obrazek przedstawiający pogodę"
+                            class="weather__main-info--photo">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="weather__headings">
+                        <p>Temperatura:</p>
+                        <p>Wilgotność:</p>
+                    </div>
+                    <div class="weather__info">
+                        <p class="temperature"></p>
+                        <p class="humidity"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="register">
+            <div class="register__text">Aby założyć konto użytkownika i korzystać ze wszystkich możliwości jakie oferują
+                nasze linie lotnicze kliknij <span class="register__text--span">tutaj</span></div>
+                <div class="register__popup">
+                    <form action="" class="register__popup-form">
+                        <h3 class="register__popup-form--heading">Zarejestruj się!</h3>
+                        <div class="register__popup-form--box">
+                            <label for="usernameRegister" class="register__popup-form--label">Imię:</label>
+                            <input class="register__popup-form--input" type="text" id="usernameRegister" placeholder="Podaj imię użytkownika">
+                            <p class="register__popup-form--error-text">error</p>
+                        </div>
+                        <div class="register__popup-form--box">
+                            <label for="userSurnameRegister" class="register__popup-form--label">Nazwisko:</label>
+                            <input class="register__popup-form--input" type="text" id="userSurnameRegister" placeholder="Podaj nazwisko użytkownika">
+                            <p class="register__popup-form--error-text">error</p>
+                        </div>
+                        <div class="register__popup-form--box">
+                            <label for="passwordRegister" class="register__popup-form--label">Hasło:</label>
+                            <input class="register__popup-form--input" type="password" id="passwordRegister" placeholder="Podaj hasło">
+                            <p class="register__popup-form--error-text">error</p>
+                        </div>
+                        <div class="register__popup-form--box">
+                            <label for="passwordRegister2" class="register__popup-form--label">Powtórz hasło:</label>
+                            <input class="register__popup-form--input" type="password" id="passwordRegisterRepeat" placeholder="Powtórz hasło">
+                            <p class="register__popup-form--error-text">error</p>
+                        </div>
+                        <div class="register__popup-form--box">
+                            <label for="userEmail" class="register__popup-form--label">Adres email:</label>
+                            <input class="register__popup-form--input" type="email" id="userEmail" placeholder="Podaj adres mailowy">
+                            <p class="register__popup-form--error-text">error</p>
+                        </div>
+                        <div class="register__popup-form--btns">
+                            <button class="register__popup-form--btnClear">Wyczyść</button>
+                            <button class="register__popup-form--btnSend">Wyślij</button>
+                        </div>
+                        <div class="register__popup-form--final">
+                            <p class="register__popup-form--final-text">Formularz został poprawnie wysłany!</p>
+                            <button class="register__popup-form--btnClose">Zamknij</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="bg-shadow"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text"> <span class="footer__copy">&copy;</span> <span class="footer__year"></span> Silesian Airways</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
