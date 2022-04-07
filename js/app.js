@@ -270,19 +270,45 @@ sectorPlace.textContent = localStorage.getItem('sector')
 luggageOption.textContent = localStorage.getItem('luggage')
 
 
+// const choiceSeatsHandler = () => {
+// 	let countAdults = numberAdults.textContent * 1;
+// 	let countUnderage = numberUnderage.textContent * 1;
+// 	let counter = 0
+	
+// 	seatsAvailable.forEach(item => {
+// 		item.addEventListener("click", () => {
+// 			if(counter < countAdults + countUnderage){
+// 				item.classList.add("available-choice");
+// 				counter++
+// 			}
+// 			return
+// 		});
+// 	})
+// }
 const choiceSeatsHandler = () => {
 	let countAdults = numberAdults.textContent * 1;
 	let countUnderage = numberUnderage.textContent * 1;
+	let totalTickets = countAdults + countUnderage
 	let counter = 0
 	
 	seatsAvailable.forEach(item => {
 		item.addEventListener("click", () => {
-			if(counter < countAdults + countUnderage){
+			if(counter < totalTickets && !item.classList.contains('available-choice')){
 				item.classList.add("available-choice");
 				counter++
+			} else if(counter >= totalTickets && item.classList.contains("available-choice")){
+				clearSeats()
+				counter = 0
 			}
-			return
 		});
+	})
+}
+
+const clearSeats = () => {
+	
+	seatsAvailable.forEach(item => {
+		if(item.classList.contains("available-choice"))
+			item.classList.remove("available-choice")
 	})
 }
 
