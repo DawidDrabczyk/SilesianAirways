@@ -62,11 +62,11 @@ const formHandler = () => {
 };
 
 const handlerDateInput = () => {
-	let curDate = new Date()
-	let curYear = curDate.getFullYear()
-	let curMonth = curDate.getMonth() + 1
-	let curDay = curDate.getDate()
-	let crr
+	let curDate = new Date();
+	let curYear = curDate.getFullYear();
+	let curMonth = curDate.getMonth() + 1;
+	let curDay = curDate.getDate();
+	let crr;
 
 	if(curMonth < 10 && curDay < 10){
 		crr = curYear.toString() + '-0' + curMonth.toString() + '-0' + curDay.toString()
