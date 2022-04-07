@@ -61,6 +61,22 @@ const formHandler = () => {
 	localStorage.setItem('luggage', luggage.options[luggage.selectedIndex].text)
 };
 
+const handlerDateInput = () => {
+	let curDate = new Date()
+	let curYear = curDate.getFullYear()
+	let curMonth = curDate.getMonth() + 1
+	let curDay = curDate.getDate()
+	let crr
+
+	if(curMonth < 10 && curDay < 10){
+		crr = curYear.toString() + '-0' + curMonth.toString() + '-0' + curDay.toString()
+	} else {
+		crr = curYear.toString() + curMonth.toString() + curDay.toString()
+	}
+	
+	timeArrive.setAttribute('min', crr)
+}
+
 const popupLoginForm = (e) => {
 	if(loginBtn.textContent === 'Zaloguj się'){
 		popupLogin.style.display="block"
@@ -171,8 +187,6 @@ const footerYear = () => {
 
 	year.innerText = currentYear;
 };
-
-footerYear();
 
 const popupHandler = e => {
 
@@ -290,6 +304,9 @@ const showRegisterPopup = () =>{
 	registerText.style.display = 'none'
 	registerPopupActive.style.display = 'flex'
 }
+
+handlerDateInput()
+footerYear();
 
 window.requestAnimationFrame(showTextTime);
 
