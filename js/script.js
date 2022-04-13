@@ -70,8 +70,12 @@ const handlerDateInput = () => {
 
 	if(curMonth < 10 && curDay < 10){
 		crr = curYear.toString() + '-0' + curMonth.toString() + '-0' + curDay.toString()
+	} else if (curMonth < 10 && curDay > 10){
+		crr = curYear.toString() + '-0' + curMonth.toString() +  '-'  + curDay.toString()
+	} else if (curMonth > 10 && curDay < 10){
+		crr = curYear.toString() + '-' + curMonth.toString() +  '-0'  + curDay.toString()
 	} else {
-		crr = curYear.toString() + curMonth.toString() + curDay.toString()
+		crr = curYear.toString() + '-' + curMonth.toString() +  '-'  + curDay.toString()
 	}
 	
 	timeArrive.setAttribute('min', crr)

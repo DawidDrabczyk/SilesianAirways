@@ -57,17 +57,17 @@
             <form action="order.html" class="order__form" name="order-form">
                 <label class="order__form-label" for="from">Miejsce wylotu:</label>
                 <select class="order__form-select form-item-cityfrom" name="" id="from" required>
-                    <option value="">- wylot z -</option>
-                    <option value="">Gliwice</option>
-                    <option value="">Katowice</option>
-                    <option value="">Zabrze</option>
+                    <option value="" disabled selected>- wylot z -</option>
+                    <option value="Gliwice">Gliwice</option>
+                    <option value="Katowice">Katowice</option>
+                    <option value="Zabrze">Zabrze</option>
                 </select>
                 <label class="order__form-label" for="to">Cel podróży:</label>
                 <select class="order__form-select form-item-cityto" name="" id="to" required>
-                    <option value="">- przylot do -</option>
-                    <option value="">Gdańsk</option>
-                    <option value="">Londyn</option>
-                    <option value="">Nowy Jork</option>
+                    <option value="" disabled selected>- przylot do -</option>
+                    <option value="Gdańsk">Gdańsk</option>
+                    <option value="Londyn">Londyn</option>
+                    <option value="Nowy Jork">Nowy Jork</option>
                 </select>
                 <label class="order__form-label form-item-date" for="time-arrive">Data odlotu:</label>
                 <input class="order__form-input" type="date" name="" id="time-arrive" required>
@@ -77,17 +77,17 @@
                         <input class="order__form-input" type="number" name="" id="underage" min="0" max="100" required>
                         <label class="order__form-label" for="sector">Wybierz klasę:</label>
                         <select class="order__form-select" id="sector" required>
-                            <option value="">-</option>
-                            <option value="">Ekonomiczna</option>
-                            <option value="">Biznesowa</option>
-                            <option value="">VIP</option>
+                            <option value="" selected disabled>-</option>
+                            <option value="Ekonomiczna">Ekonomiczna</option>
+                            <option value="Biznesowa">Biznesowa</option>
+                            <option value="VIP">VIP</option>
                         </select>
                         <label class="order__form-label" for="luggage">Bagaż:</label>
                         <select class="order__form-select" name="" id="luggage" required>
-                            <option value="">-</option>
-                            <option value="">Bez bagażu</option>
-                            <option value="">Bagaż podręczny</option>
-                            <option value="">Duży bagaż > 15kg</option>
+                            <option value="" selected disabled>-</option>
+                            <option value="Bez bagażu">Bez bagażu</option>
+                            <option value="Bagaż podręczny">Bagaż podręczny</option>
+                            <option value="Duży bagaż">Duży bagaż > 15kg</option>
                         </select>
                         <button class="order__form-btn btn-form" type="submit" id="submit-btn"><a class="submit-btn">Zamów</a></button>
                         <button class="order__form-btn btn-form" type="reset">Zresetuj formularz</button>

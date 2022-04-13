@@ -1825,6 +1825,10 @@ hr {
   font-size: 3rem;
 }
 
+.summary__description {
+  margin-left: 1em;
+}
+
 .summary__table {
   position: relative;
   margin-bottom: 2em;
