@@ -51,6 +51,24 @@ const submitBtn = document.getElementById("submit-btn");
 const popupLogin = document.querySelector('.popup-login')
 const popupLoginClose = document.querySelector('.popup-login__closeBtn')
 
+const headerHeading = document.querySelector('.header__heading')
+
+const text = 'witamy w silesian airways'
+let index = 1
+let timeout;
+let speed = 130
+
+const headerAnimation = () => {
+	headerHeading.innerHTML = text.slice(0, index) 
+	index++
+
+	if(index > text.length) return
+
+	timeout = setTimeout(headerAnimation, speed)
+}
+
+headerAnimation()
+
 const formHandler = () => {
 	localStorage.setItem('fromCity', fromCity.options[fromCity.selectedIndex].text)
 	localStorage.setItem('toCity', toCity.options[toCity.selectedIndex].text)
@@ -157,11 +175,11 @@ const closePopup = () => {
 	info.textContent = "";
 };
 
-function lz(i) {
+const timeHandler = (i) => {
 	return `${i}`.padStart(2, "0");
 }
 
-function showTextTime() {
+const showTimeText = () => {
 	const now = new Date();
 	const days = [
 		"Niedziela",
@@ -173,17 +191,17 @@ function showTextTime() {
 		"Sobota",
 	];
 
-	const textDate = `${lz(now.getDate())} . ${lz(
+	const textDate = `${timeHandler(now.getDate())} . ${timeHandler(
 		now.getMonth() + 1
 	)} . ${now.getFullYear()} (${days[now.getDay()]})`;
-	const textTime = `${lz(now.getHours())} : ${lz(now.getMinutes())} : ${lz(
+	const textTime = `${timeHandler(now.getHours())} : ${timeHandler(now.getMinutes())} : ${timeHandler(
 		now.getSeconds()
 	)}`;
 
 	date.innerHTML = textDate;
 	time.innerHTML = textTime;
 
-	window.requestAnimationFrame(showTextTime);
+	window.requestAnimationFrame(showTimeText);
 }
 
 const footerYear = () => {
@@ -308,11 +326,10 @@ const showRegisterPopup = () =>{
 	registerText.style.display = 'none'
 	registerPopupActive.style.display = 'flex'
 }
+window.requestAnimationFrame(showTimeText);
 
 handlerDateInput()
 footerYear();
-
-window.requestAnimationFrame(showTextTime);
 
 popupBtn.addEventListener("click", popupHandler);
 input.addEventListener("keyup", checkEnter);
