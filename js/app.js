@@ -30,7 +30,7 @@ const acceptOrder = () => {
 };
 
 const showFinalPopup = () => {
-	popupFinal.style.display = "block";
+	popupFinal.style.bottom = "0";
 };
 
 const footerYear = () => {
@@ -282,22 +282,6 @@ numberUnderage.textContent = localStorage.getItem('numUnderage')
 sectorPlace.textContent = localStorage.getItem('sector')
 luggageOption.textContent = localStorage.getItem('luggage')
 
-
-// const choiceSeatsHandler = () => {
-// 	let countAdults = numberAdults.textContent * 1;
-// 	let countUnderage = numberUnderage.textContent * 1;
-// 	let counter = 0
-	
-// 	seatsAvailable.forEach(item => {
-// 		item.addEventListener("click", () => {
-// 			if(counter < countAdults + countUnderage){
-// 				item.classList.add("available-choice");
-// 				counter++
-// 			}
-// 			return
-// 		});
-// 	})
-// }
 const choiceSeatsHandler = () => {
 	let countAdults = numberAdults.textContent * 1;
 	let countUnderage = numberUnderage.textContent * 1;

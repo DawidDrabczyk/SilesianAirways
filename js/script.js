@@ -163,11 +163,11 @@ const checkEnter = e => {
 };
 
 const showPopup = () => {
-	popup.style.display = "flex";
+	popup.style.top = "0";
 };
 
 const closePopup = () => {
-	popup.style.display = "none";
+	popup.style.top = "-1000px";
 	popupInputs.forEach(item => {
 		item.value = "";
 	});
