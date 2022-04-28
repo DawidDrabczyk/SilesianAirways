@@ -17,6 +17,10 @@
 				margin-bottom: 0.5em;
 			}
 		}
+		&__btn{
+			top: 7%;
+			right: 10%;
+		}
 	}
     .basic-info{
         &__heading{
@@ -61,6 +65,14 @@
 
 		&__heading{
 			display: flex;
+			position: absolute;
+			left: 20%;
+		}
+		&__logo{
+			top: 2.5em;
+			&--plane{
+				font-size: 5rem;
+			}
 		}
 	}
 
@@ -78,13 +90,14 @@
 	}
 
 	.exchange{
-		height: 60vh;
+		height: 50vh;
 
 		&__heading{
-			font-size: 4rem;
+			font-size: 4.5rem;
 		}
 		&__heading-text{
 			top: 30%;
+			font-size: 3rem;
 		}
 		&__body{
 			display: flex;
@@ -92,10 +105,18 @@
 			top: 60%;
 		}
 		&__body-amount{
-			font-size: 2rem;
+			font-size: 4rem;
 		}
 		&__body-select{
-			font-size: 1.6rem;
+			font-size: 2rem;
+		}
+		&__body-rateInfo{
+			position: absolute;
+			bottom: 1%;
+			font-size: 1.5rem;
+		}
+		&__body-btnSwap{
+			font-size: 2.5rem;
 		}
 	}
 

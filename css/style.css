@@ -2133,7 +2133,7 @@ hr {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 80vh;
+  height: 40vh;
   position: relative;
   padding: 5em;
   background-image: url("../img/change_640.jpg");
@@ -2146,13 +2146,14 @@ hr {
 .exchange__heading {
   position: absolute;
   top: 5%;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .exchange__heading-text {
   position: absolute;
   top: 20%;
-  font-size: 1.2rem;
+  padding: 0 2em;
+  font-size: 1.5rem;
 }
 
 .exchange__body {
@@ -2189,7 +2190,7 @@ hr {
 .exchange__body-amount {
   margin: 0.5em;
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .exchange__body-select {
@@ -2898,6 +2899,14 @@ hr {
 @media (min-width: 576px) {
   .header__heading {
     font-size: 4.5rem;
+  }
+  .header__timer {
+    top: 5%;
+    left: 5%;
+  }
+  .header__btn {
+    top: 5%;
+    right: 5%;
   }
   .basic-info__heading {
     font-size: 3rem;
@@ -3772,6 +3781,10 @@ hr {
   .header__timer--time {
     margin-bottom: 0.5em;
   }
+  .header__btn {
+    top: 7%;
+    right: 10%;
+  }
   .basic-info__heading {
     font-size: 3.5rem;
   }
@@ -3807,6 +3820,14 @@ hr {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: absolute;
+    left: 20%;
+  }
+  .header-order__logo {
+    top: 2.5em;
+  }
+  .header-order__logo--plane {
+    font-size: 5rem;
   }
   .register__popup-form--heading {
     font-size: 4rem;
@@ -3815,13 +3836,14 @@ hr {
     font-size: 2rem;
   }
   .exchange {
-    height: 60vh;
+    height: 50vh;
   }
   .exchange__heading {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   .exchange__heading-text {
     top: 30%;
+    font-size: 3rem;
   }
   .exchange__body {
     display: -webkit-box;
@@ -3834,10 +3856,18 @@ hr {
     top: 60%;
   }
   .exchange__body-amount {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .exchange__body-select {
-    font-size: 1.6rem;
+    font-size: 2rem;
+  }
+  .exchange__body-rateInfo {
+    position: absolute;
+    bottom: 1%;
+    font-size: 1.5rem;
+  }
+  .exchange__body-btnSwap {
+    font-size: 2.5rem;
   }
   .popup-login {
     width: 350px;
@@ -4385,14 +4415,36 @@ hr {
   .header__heading {
     font-size: 5rem;
   }
-  .basic-info __describtion {
+  .header__timer {
+    font-size: 2rem;
+  }
+  .header__btn {
+    font-size: 2rem;
+    width: 200px;
+    height: 75px;
+  }
+  .header-order__heading {
+    font-size: 4rem;
+  }
+  .header-order__logo {
+    top: 4.5em;
+    left: 7em;
+  }
+  .basic-info {
+    position: relative;
+  }
+  .basic-info__describtion {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    top: 30%;
-    font-size: 1.8rem;
+    top: 20%;
+    padding: 0 5em;
+    font-size: 2.5rem;
     text-align: center;
+  }
+  .basic-info__text {
+    top: 70%;
   }
   .order__heading {
     top: 10px;
@@ -4402,6 +4454,10 @@ hr {
   .order__form-label {
     font-size: 2.9rem;
   }
+  .popup-content {
+    width: 400px;
+    height: 200px;
+  }
   .register {
     background-image: url("../img/register_1920.jpg");
   }
@@ -4409,27 +4465,54 @@ hr {
 
 @media (min-width: 1200px) {
   .header {
+    position: relative;
     height: 60vh;
+  }
+  .header__heading {
+    position: absolute;
+    top: 75%;
+  }
+  .header__timer {
+    top: 12%;
+  }
+  .header__btn {
+    top: 12%;
   }
   .header-order {
     height: 25rem;
   }
   .header-order__heading {
-    font-size: 5rem;
+    font-size: 6.5rem;
+  }
+  .header-order__logo {
+    top: 5em;
+  }
+  .header-order__logo--plane {
+    font-size: 8rem;
   }
   .basic-info__heading {
     font-size: 4rem;
   }
   .basic-info__text {
+    top: 55%;
     font-size: 2.5rem;
   }
   .basic-info__arrow {
-    bottom: 2.5rem;
+    bottom: 4rem;
   }
-  .exchange__heading-text {
+  .weather__main-info--input {
+    width: 300px;
     font-size: 2rem;
   }
-  .exchange__body-amount {
+  .weather__main-info--button {
+    width: 160px;
+    height: 70px;
+    font-size: 1.8rem;
+  }
+  .exchange__body-rateInfo {
+    font-size: 2rem;
+  }
+  .exchange__body-select {
     font-size: 2.5rem;
   }
   .plane-box__inside {
