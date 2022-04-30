@@ -168,7 +168,8 @@ hr {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	transition: top cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+	opacity: 0;
+	transition: top cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s, opacity 4s;
 }
 .popup-content {
 	position: relative;
@@ -648,7 +649,8 @@ hr {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 	border-radius: 8px;
 	text-align: center;
-	transition: bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1);
+	opacity: 0;
+	transition: bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1), opacity 2.5s;
 
 	&__heading {
 		font-size: 1.3rem;
@@ -778,7 +780,8 @@ hr {
 			height: 120px;
 			border-radius: 5px;
 			border: 2px solid black;
-			transition: left 0.3s;
+			opacity: 0;
+			transition: left 2s, opacity 2s;
 		}
 		&--final-text {
 			font-size: 1.9rem;
@@ -789,6 +792,7 @@ hr {
 	}
 	&__show-finalPopup {
 		left: 50%;
+		opacity: 1;
 	}
 }
 

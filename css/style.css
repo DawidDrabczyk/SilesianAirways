@@ -1366,8 +1366,9 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transition: top cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  transition: top cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  opacity: 0;
+  -webkit-transition: top cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s, opacity 4s;
+  transition: top cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s, opacity 4s;
 }
 
 .popup-content {
@@ -1942,8 +1943,9 @@ hr {
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   border-radius: 8px;
   text-align: center;
-  -webkit-transition: bottom 2s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: bottom 2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  opacity: 0;
+  -webkit-transition: bottom 2s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 2.5s;
+  transition: bottom 2s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 2.5s;
 }
 
 .popup-final__heading {
@@ -2110,8 +2112,9 @@ hr {
   height: 120px;
   border-radius: 5px;
   border: 2px solid black;
-  -webkit-transition: left 0.3s;
-  transition: left 0.3s;
+  opacity: 0;
+  -webkit-transition: left 2s, opacity 2s;
+  transition: left 2s, opacity 2s;
 }
 
 .register__popup-form--final-text {
@@ -2124,6 +2127,7 @@ hr {
 
 .register__show-finalPopup {
   left: 50%;
+  opacity: 1;
 }
 
 .exchange {

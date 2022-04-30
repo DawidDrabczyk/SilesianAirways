@@ -164,6 +164,7 @@ const checkEnter = e => {
 
 const showPopup = () => {
 	popup.style.top = "0";
+	popup.style.opacity = "1";
 };
 
 const closePopup = () => {
