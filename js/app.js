@@ -31,6 +31,7 @@ const acceptOrder = () => {
 
 const showFinalPopup = () => {
 	popupFinal.style.bottom = "0";
+	popupFinal.style.opacity = "1";
 };
 
 const footerYear = () => {

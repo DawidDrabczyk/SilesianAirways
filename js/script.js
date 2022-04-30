@@ -164,10 +164,12 @@ const checkEnter = e => {
 
 const showPopup = () => {
 	popup.style.top = "0";
+	popup.style.opacity = "1";
 };
 
 const closePopup = () => {
 	popup.style.top = "-1000px";
+	popup.style.opacity = "0";
 	popupInputs.forEach(item => {
 		item.value = "";
 	});
