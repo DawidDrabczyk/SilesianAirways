@@ -1263,6 +1263,18 @@ hr {
   cursor: pointer;
 }
 
+.header .circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-animation: zoom 0.3s;
+          animation: zoom 0.3s;
+}
+
 .header .header__btn:hover {
   background-color: #aeecff;
   color: #001f35;
@@ -1367,8 +1379,8 @@ hr {
           align-items: center;
   text-align: center;
   opacity: 0;
-  -webkit-transition: top cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s, opacity 4s;
-  transition: top cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s, opacity 4s;
+  -webkit-transition: top cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s, opacity 3s;
+  transition: top cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s, opacity 3s;
 }
 
 .popup-content {
@@ -2239,6 +2251,22 @@ hr {
 .exchange__body-rateInfo {
   margin-top: 1em;
   font-size: 1.2rem;
+}
+
+@-webkit-keyframes zoom {
+  to {
+    -webkit-transform: translate(-50%, -50%) scale(2);
+            transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes zoom {
+  to {
+    -webkit-transform: translate(-50%, -50%) scale(2);
+            transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+  }
 }
 
 @media (min-width: 390px) {

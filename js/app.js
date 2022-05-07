@@ -310,7 +310,6 @@ const clearSeats = () => {
 	})
 }
 
-
 currencyOne.addEventListener('change', calculate)
 currencyTwo.addEventListener('change', calculate)
 amountOne.addEventListener('input', calculate)

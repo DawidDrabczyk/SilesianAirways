@@ -320,6 +320,29 @@ const clearInputs = e => {
 	});
 };
 
+const circleAnimation = (e) => {
+	const top = e.clientY
+    const left = e.clientX
+
+    const btnTopPosition = e.target.offsetTop
+    const btnLeftPosition = e.target.offsetLeft
+
+    const insideBtnTop = top - btnTopPosition
+    const insideBtnLeft = left - btnLeftPosition
+
+    const circle = document.createElement('span')
+    circle.classList.add('circle')
+
+    circle.style.top = insideBtnTop + 'px' 
+    circle.style.left = insideBtnLeft + 'px' 
+    
+    e.target.appendChild(circle)
+
+    setTimeout( ()=>{
+        circle.remove()
+    }, 300)
+}
+
 const registerPopupButton = document.querySelector('.register__text--span')
 const registerText = document.querySelector('.register__text')
 const registerPopupActive = document.querySelector('.register__popup')
@@ -337,6 +360,7 @@ popupBtn.addEventListener("click", popupHandler);
 input.addEventListener("keyup", checkEnter);
 button.addEventListener("click", getWeather);
 buttonLogin.addEventListener("click", showPopup);
+buttonLogin.addEventListener("click", circleAnimation);
 closeBtn.addEventListener("click", closePopup);
 clearBtn.addEventListener("click", clearInputs);
 sendBtn.addEventListener("click", sendValues);
