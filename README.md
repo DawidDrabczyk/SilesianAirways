@@ -25,6 +25,14 @@ Project is created with:
 * ExchangeRate API (check the value in the another currency),
 * Summary Window.
 
+## How to log in
+
+To login type admin as a login and admin123 as a password
+
+## Deploy
+
+https://dawiddrabczyk.github.io/SilesianAirways/
+
 ## Inspiration
 
 This project is a credit assignment required for graduation as a front end developer.
