@@ -40,7 +40,3 @@ This project is a credit assignment required for graduation as a front end devel
 ## Project Status
 
 The basic version of the project has been completed. Future development is possible.
-
-## Contact by LinkedIn
-
-https://www.linkedin.com/in/dawid-drabczyk-02b561212/
